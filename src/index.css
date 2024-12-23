@@ -1,8 +1,11 @@
 body {
-  font-family: "Red Hat Display", serif;
+  font-family: 'Red Hat Display', serif;
   font-optical-sizing: auto;
-  font-weight:400;
+  font-weight: 400;
   font-style: normal;
+}
+.link {
+  cursor: pointer;
 }
 .hero-container {
   background-image: url('/images/hero-image.jpg');
@@ -11,14 +14,12 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
 }
 
 .hero-logo {
   color: white;
   text-shadow: 2px 2px black;
-  
-  
+  font-size: 50px;
 }
 .heading {
   margin-top: 50px;
@@ -27,7 +28,7 @@ body {
 .form {
   margin: 50px 100px;
 }
-.about-container{
+.about-container {
   margin-top: 50px;
   padding: 50px;
 }
@@ -65,26 +66,27 @@ ul {
 .description {
   text-align: center;
 }
-.footer-container{
-text-align: center;
-margin-top: 50px;
-margin-bottom: 50px;
+.footer-container {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
-.footer-grid{
+.footer-grid {
   border-style: solid;
   padding: 50px;
   border-width: 2px;
   margin: 50px;
-
 }
-.phone{
+.phone {
   border-right-style: solid;
   border-right-width: 1px;
 }
-.email{
+.email {
   border-right-style: solid;
   border-right-width: 1px;
 }
-.phone, .email, .areas{
+.phone,
+.email,
+.areas {
   text-align: center;
 }

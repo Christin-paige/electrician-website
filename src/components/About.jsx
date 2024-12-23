@@ -5,8 +5,8 @@ import Row from 'react-bootstrap/Row';
 
 export default function About() {
   return (
-    <>
-      <div className="full-width">
+    <div id="About">
+      <div  className="full-width">
         <Container className="about-container">
           <h2>About</h2>
 
@@ -37,6 +37,6 @@ export default function About() {
           </Row>
         </Container>
       </div>
-    </>
+    </div>
   );
 }

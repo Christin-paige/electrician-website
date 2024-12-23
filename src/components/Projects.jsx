@@ -6,7 +6,7 @@ import Image from 'react-bootstrap/Image';
 export default function Projects() {
   return (
     <>
-      <div className="full-width">
+      <div id="Projects" className="full-width">
         <Container className="projects-container">
           <h2>Projects</h2>
 

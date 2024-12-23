@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 
 export default function Contact () {
   return (
-    <div className="heading">
+    <div id="Contact"className="heading">
     <h2>Request a Free Quote</h2>
     
     <Form className="form">
