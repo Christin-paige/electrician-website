@@ -1,0 +1,90 @@
+body {
+  font-family: "Red Hat Display", serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+.hero-container {
+  background-image: url('/images/hero-image.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.hero-logo {
+  color: white;
+  text-shadow: 2px 2px black;
+  
+  
+}
+.heading {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.form {
+  margin: 50px 100px;
+}
+.about-container{
+  margin-top: 50px;
+  padding: 50px;
+}
+.electrician-portrait {
+  width: 75%;
+}
+.services-container {
+  margin-top: 50px;
+  width: 100%;
+}
+ul {
+  list-style: none;
+}
+.full-width {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100vw;
+  background: rgb(204, 195, 186);
+  background: linear-gradient(
+    90deg,
+    rgba(204, 195, 186, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.projects-container {
+  margin-top: 50px;
+
+  padding: 50px;
+}
+.project-images {
+  width: 100%;
+  margin: 30px;
+}
+.description {
+  text-align: center;
+}
+.footer-container{
+text-align: center;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+.footer-grid{
+  border-style: solid;
+  padding: 50px;
+  border-width: 2px;
+  margin: 50px;
+
+}
+.phone{
+  border-right-style: solid;
+  border-right-width: 1px;
+}
+.email{
+  border-right-style: solid;
+  border-right-width: 1px;
+}
+.phone, .email, .areas{
+  text-align: center;
+}
