@@ -8,7 +8,7 @@ export default function About() {
     <div id="About">
       <div  className="full-width">
         <Container className="about-container">
-          <h2>About</h2>
+          <h2>Who We Are: Dedicated to Quality and Safety</h2>
 
           <Row>
             <Col>

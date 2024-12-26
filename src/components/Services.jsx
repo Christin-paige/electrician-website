@@ -71,51 +71,7 @@ export default function Services() {
             </ul>
           </Col>
         </Row>
-        <Row className="services-container">
-          <h4>Commercial</h4>
-
-          <Col>
-            <ul>
-              <li>
-                <strong>Electrical System Design:</strong> Creating and
-                implementing systems for offices, retail spaces, or warehouses.
-              </li>
-              <li>
-                <strong>Data and Network Cabling:</strong> Installing structured
-                cabling for internet, phone, and network systems.
-              </li>
-              <li>
-                <strong>Lighting Solutions:</strong> Energy-efficient LED
-                retrofitting, emergency lighting, and parking lot lighting.
-              </li>
-              <li>
-                <strong>Electrical Maintenance:</strong> Regular maintenance and
-                inspections to prevent downtime.
-              </li>
-            </ul>
-          </Col>
-          <Col>
-            <ul>
-              <li>
-                <strong>Code Compliance Upgrades:</strong> Ensuring electrical
-                systems meet local and national safety standards.
-              </li>
-              <li>
-                <strong>Power Distribution Systems:</strong> Installing
-                transformers, switchgear, and other systems for power
-                distribution.
-              </li>
-              <li>
-                <strong>Security Systems:</strong> Installing and wiring alarms,
-                cameras, and access control systems.
-              </li>
-              <li>
-                <strong>Emergency Services:</strong> 24/7 troubleshooting and
-                repairs for power outages and equipment failures.
-              </li>
-            </ul>
-          </Col>
-        </Row>
+       
       </Container>
     </>
   );

@@ -14,7 +14,7 @@ export default function Projects() {
             <Col>
               {' '}
               <Image
-                className="project-images"
+                className="project-images1"
                 src="/images/bathroom-lights.jpg"
                 rounded
               />
@@ -22,7 +22,7 @@ export default function Projects() {
             </Col>
             <Col>
               <Image
-                className="project-images"
+                className="project-images1"
                 src="/images/dining-lights.jpg"
                 rounded
               />

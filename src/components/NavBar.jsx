@@ -16,9 +16,21 @@ export default function NavBar() {
               className="d-inline-block align-top"
               alt="let there be light logo"
             />
+           
           </Navbar.Brand>
+          <div className="contact-phone">
+          <i className="bi bi-telephone">
+            <strong> Call us today! </strong>(301)367-7790
+          </i>
+          <p>
+            <a href="tel:3013677790"></a>
+          </p>
+          </div>
+          <div className="nav-links">
           <Nav className="me-auto">
-            <Nav.Link href="#Hero">Home</Nav.Link>
+            <Nav.Link className="link" as={Link} to="Hero" offset={-100}>
+              Home
+            </Nav.Link>
             <Nav.Link className="link" as={Link} to="About" offset={-100}>
               About
             </Nav.Link>
@@ -28,17 +40,16 @@ export default function NavBar() {
             <Nav.Link className="link" as={Link} to="Projects" offset={-100}>
               Projects
             </Nav.Link>
+            <Nav.Link className="link" as={Link} to="Testimonials" offset={-100}>
+              Testimonials
+            </Nav.Link>
             <Nav.Link className="link" as={Link} to="Contact" offset={-150}>
               Contact
             </Nav.Link>
           </Nav>
+          </div>
 
-          <i className="bi bi-telephone">
-            <strong> Call us today! </strong>(301)367-7790
-          </i>
-          <p>
-            <a href="tel:3013677790"></a>
-          </p>
+        
         </Container>
       </Navbar>
     </>
